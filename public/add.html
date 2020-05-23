@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" class="signupForm">
+        <div class="form-entry">
+
+            <label for="Name">Name</label><br>
+            <input type="text" placeholder="Enter your name" class="form-area" id="name">
+        </div>
+        <div class="form-entry">
+
+            <label for="Age">Age?</label><br>
+            <input type="text" placeholder="something" class="form-area" id="age"> 
+        </div>
+        <div class="form-entry">
+
+            <label for="interest">Interests</label><br>
+            <select name="find" id="interests" class="form-area">
+                <option value="MALE" selected>MALE</option>
+                <option value="FEMALE">FEMALE</option>
+                <option value="BOTH">BOTH</option>
+            </select>
+        </div>
+        <div class="form-entry">
+
+            <label for="Comments">Your Bio</label><br>
+            <textarea name="comment" class="form-area" cols="30" rows="10" style="height: initial;" id="bio"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
+    <script src="Frontend.js"></script>
+</body>
+</html>
